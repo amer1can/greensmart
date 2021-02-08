@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Green Smart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Rasa:wght@600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Green Smart</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="header__top"><a class="header__logo" href="#">
+              <picture>
+                <source media="(max-width: 767px)" srcset="img/index/header/logo-mob.png"><img src="img/index/header/logo-desk.png" alt="site logo">
+              </picture></a>
+            <div class="header__delivery">Ближайшая доставка<span>27 декабря</span></div>
+            <div class="header__info"><a class="header__info-actions" href="#">Акции</a><a class="header__info-prime" href="#">Greensmart Prime</a><a class="header__info-aboutdelivery" href="#">О доставке</a></div>
+          </div>
+          <div class="header__bottom">
+            <div class="header__menu"><a href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 12H22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M2 17H16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M2 7H22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></a><a class="header__catalog" href="#">Каталог продуктов</a></div>
+            <div class="header__search-wrap">
+              <input class="header__search" type="text" name="search" placeholder="Поиск по товарам, рецептам и статьям">
+            </div>
+            <div class="header__user">
+              <button class="header__btn-place"><img src="img/index/header/header-pin.svg" alt=""><span>Куда доставить?</span></button>
+              <div class="header__profile"> 
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.9246 13.0761C16.781 11.9745 15.4198 11.1591 13.9346 10.6654C15.5253 9.61016 16.5703 7.84407 16.5703 5.84706C16.5703 2.623 13.8472 0 10.5 0C7.15284 0 4.42969 2.623 4.42969 5.84706C4.42969 7.84407 5.47472 9.61016 7.06543 10.6654C5.58026 11.1591 4.21903 11.9745 3.07539 13.0761C1.09221 14.9864 0 17.5262 0 20.2277H1.64062C1.64062 15.5222 5.61492 11.6941 10.5 11.6941C15.3851 11.6941 19.3594 15.5222 19.3594 20.2277H21C21 17.5262 19.9078 14.9864 17.9246 13.0761ZM10.5 10.1138C8.05748 10.1138 6.07031 8.19979 6.07031 5.84706C6.07031 3.49433 8.05748 1.58029 10.5 1.58029C12.9425 1.58029 14.9297 3.49433 14.9297 5.84706C14.9297 8.19979 12.9425 10.1138 10.5 10.1138Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="header__cart">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.125 18.375C6.125 17.4085 6.9085 16.625 7.875 16.625C8.8415 16.625 9.625 17.4085 9.625 18.375C9.625 19.3415 8.8415 20.125 7.875 20.125C6.9085 20.125 6.125 19.3415 6.125 18.375Z" fill="white"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.75 18.375C15.75 17.4085 16.5335 16.625 17.5 16.625C18.4665 16.625 19.25 17.4085 19.25 18.375C19.25 19.3415 18.4665 20.125 17.5 20.125C16.5335 20.125 15.75 19.3415 15.75 18.375Z" fill="white"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.875C0 0.391751 0.391751 0 0.875 0H4.375C4.79205 0 5.15114 0.294337 5.23298 0.703275L5.96788 4.375H20.125C20.3858 4.375 20.633 4.49131 20.7992 4.69224C20.9654 4.89316 21.0334 5.15776 20.9845 5.41391L19.5833 12.7617C19.4632 13.366 19.1345 13.9088 18.6546 14.2951C18.1771 14.6795 17.5802 14.8846 16.9674 14.875H8.47756C7.86483 14.8846 7.26793 14.6795 6.79042 14.2951C6.31072 13.9089 5.98206 13.3664 5.86191 12.7625C5.86186 12.7622 5.86196 12.7627 5.86191 12.7625L4.40019 5.4593C4.39426 5.43514 4.38933 5.41059 4.38546 5.38569L3.65778 1.75H0.875C0.391751 1.75 0 1.35825 0 0.875ZM6.31814 6.125L7.57824 12.4208C7.61824 12.6222 7.72782 12.8031 7.88779 12.9319C8.04775 13.0607 8.24792 13.1291 8.45324 13.1252L8.47 13.125H16.975L16.9918 13.1252C17.1971 13.1291 17.3973 13.0607 17.5572 12.9319C17.7164 12.8037 17.8257 12.6239 17.8662 12.4236L19.0674 6.125H6.31814Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="header__summary">0 ₽</div>
+            </div>
+          </div>
+          <div class="header__products">
+            <div class="header__products-btn"></div>
+            <ul class="header__products-items">
+              <li><a class="header__products-item header__products-item-select" href="#">Молоко</a></li>
+              <li><a class="header__products-item header__products-item-select" href="#">Хлеб</a></li>
+              <li><a class="header__products-item header__products-item-select" href="#">Мясо и Птица</a></li>
+              <li><a class="header__products-item" href="#">Сыр</a></li>
+              <li><a class="header__products-item" href="#">Овощи</a></li>
+              <li><a class="header__products-item" href="#">Масло</a></li>
+              <li><a class="header__products-item" href="#">Картофель</a></li>
+              <li><a class="header__products-item" href="#">Яйца</a></li>
+              <li><a class="header__products-item" href="#">Сладости</a></li>
+              <li><a class="header__products-item" href="#">Творог</a></li>
+              <li><a class="header__products-item" href="#">Кефир</a></li>
+              <li><a class="header__products-item" href="#">Вода</a></li>
+            </ul>
+            <div class="header__products-btn header__products-btn-transform"></div>
+            <nav class="header__main-nav">
+              <ul class="header__main-nav-list">
+                <li></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <div class="container container-full">
+        <div class="block-01">
+          <div class="block-01__slider">
+            <div class="block-01__items">
+              <div class="block-01__img"><img src="img/index/content/block-01/01.png" alt="photo1">
+                <div class="block-01__header">Попробуйте свежую <br> зелень с грядки</div>
+                <div class="block-01__icon"><img src="img/index/content/block-01/img-cart.png" alt="icon cart"></div>
+                <div class="block-01__buttons slider-buttons">
+                  <div class="block-01__btn-left slider-buttons__left"></div>
+                  <div class="block-01__btn-right slider-buttons__right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-01__comment"><span class="block-01__comment-min">Нет минимальной суммы заказа</span><span class="block-01__comment-deliv">Доставка всегда 0 ₽</span></div>
+          <div class="block-01__list">
+            <ul class="block-01__list-items"> 
+              <li class="block-01__li-active"><a class="block-01__list-item" href="#">Суперцены недели</a></li>
+              <li><a class="block-01__list-item" href="#">Вкусные завтраки</a></li>
+              <li><a class="block-01__list-item" href="#">Здоровый выбор</a></li>
+              <li><a class="block-01__list-item" href="#">Делаем жить проще</a></li>
+              <li><a class="block-01__list-item" href="#">Для семейного ужина</a></li>
+              <li><a class="block-01__list-item" href="#">Сырная история</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="block-01__mobile container">
+          <div class="block-01__mobile-items">
+            <div class="block-01__mobile-item">
+              <div class="block-01__mobile-icon"><img src="img/index/content/block-01/catalog.svg" alt="catalog"></div>
+              <div class="block-01__mobile-text">Каталог продуктов</div>
+            </div>
+            <div class="block-01__mobile-item">
+              <div class="block-01__mobile-icon"><img src="img/index/content/block-01/percent.svg" alt="percent"></div>
+              <div class="block-01__mobile-text">Акции недели</div>
+            </div>
+            <div class="block-01__mobile-item">
+              <div class="block-01__mobile-icon"><img src="img/index/content/block-01/calendar.svg" alt="calendar"></div>
+              <div class="block-01__mobile-text">Greensmart Prime</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container popular">
+        <div class="block-02">
+          <div class="block-02__header header-subtitle">
+            <h2 class="block-02__subtitle subtitle">Популярные товары</h2>
+            <div class="block-02__buttons slider-buttons">
+              <div class="block-02__button-left slider-buttons__left"></div>
+              <div class="block-02__button-right slider-buttons__right"></div>
+            </div>
+          </div>
+          <div class="block-02__items card__items">
+            <div class="block-02__item card__item">
+              <div class="block-02__item-img card__img"><img src="img/index/content/block-02/01.png" alt="img01"><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-02__item-body card__body">
+                <div class="block-02__item-title card__title">Молоко 3,2 %</div>
+                <div class="block-02__item-from card__from">от Вадима Рошки</div>
+                <div class="block-02__item-discount card__discount--empty"> </div>
+                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">95 ₽</span><span class="block-02__item-price-small card__price-small">/ 0,93 л</span></div>
+              </div>
+              <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-02__item card__item">
+              <div class="block-02__item-img card__img"><img src="img/index/content/block-02/02.png" alt="img02"><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-02__item-body card__body">
+                <div class="block-02__item-title card__title">Хлеб пшеничный</div>
+                <div class="block-02__item-from card__from">от Дарьи и Марии</div>
+                <div class="block-02__item-discount card__discount--empty"> </div>
+                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">95 ₽</span><span class="block-02__item-price-small card__small">/ 930 г</span></div>
+              </div>
+              <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-02__item card__item">
+              <div class="block-02__item-img card__img"><img src="img/index/content/block-02/03.png" alt="img03"><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-02__item-body card__body">
+                <div class="block-02__item-title card__title">Яйца куриные</div>
+                <div class="block-02__item-from card__from">от Евгения Рошаль</div>
+                <div class="block-02__item-discount card__discount--empty"> </div>
+                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">120 ₽</span><span class="block-02__item-price-small card__samll">/ 10 шт</span></div>
+              </div>
+              <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-02__item card__item">
+              <div class="block-02__item-img card__img"><img src="img/index/content/block-02/04.png" alt="img04"><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-02__item-body card__body">
+                <div class="block-02__item-title card__title">Масло сливочное 82%</div>
+                <div class="block-02__item-from card__from">от Вадима Рошки</div>
+                <div class="block-02__item-discount card__discount--empty"> </div>
+                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">290 ₽</span><span class="block-02__item-price-small card__small">/ 250 гр</span></div>
+              </div>
+              <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-02__item-cart card__cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-slider">
+        <div class="block-02 swiper-container">
+          <div class="block-02__mobitems mobile-card__items swiper-wrapper">
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m01.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Морковь средняя</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">115 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">100 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m02.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Капуста средняя</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">120 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">105 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m03.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Телятина</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">400 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">365 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Помидоры на ветке</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">150 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">170 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Мед сотовый</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">340 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">315 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="block-02__advantages">
+          <div class="block-02__adv-items">
+            <div class="block-02__adv-item">
+              <div class="block-02__adv-icon"><img src="img/index/content/block-02/adv-car.svg" alt="car"></div>
+              <div class="block-02__adv-text">Доставка всегда 0 ₽</div>
+            </div>
+            <div class="block-02__adv-item">
+              <div class="block-02__adv-icon"><img src="img/index/content/block-02/adv-cart.svg" alt="cart"></div>
+              <div class="block-02__adv-text">Нет минимальной суммы заказа</div>
+            </div>
+            <div class="block-02__adv-item">
+              <div class="block-02__adv-icon"><img src="img/index/content/block-02/adv-carrot.svg" alt="carrot"></div>
+              <div class="block-02__adv-text">Натуральные продукты</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container fresh">
+        <div class="block-03">
+          <div class="block-03__subtitle subtitle">Каждый день <span>только</span> свежие продукты</div>
+          <div class="block-03__img"><img src="img/index/content/block-03/01.png" alt="video slide">
+            <div class="block-03__icon-play"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="block-04">
+          <div class="block-04__body">
+            <div class="block-04__recipes">
+              <div class="block-04__header header-subtitle">
+                <div class="block-04__subtitle subtitle">Рецепты</div>
+                <div class="block-04__buttons slider-buttons">
+                  <div class="block-04__button-left slider-buttons__left"></div>
+                  <div class="block-04__button-right slider-buttons__right"></div>
+                </div>
+              </div>
+              <div class="block-04__img"><img src="img/index/content/block-04/01.png" alt="recipes01">
+                <div class="block-04__window">На завтрак "Весёлые ушки"</div>
+                <div class="block-04__buy-window">
+                  <div class="block-04__products"><a href="#"><img src="img/index/content/block-04/prod1.png" alt="prod1"></a><a href="#"><img src="img/index/content/block-04/prod2.png" alt="prod2"></a><a href="#"><img src="img/index/content/block-04/prod3.png" alt="prod3"></a></div>
+                  <div class="block-04__products-btn"><a class="block-04__buy-products-btn btn" href="#">Купить ингредиенты</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="block-04__health">
+              <div class="block-04__header header-subtitle">
+                <div class="block-04__subtitle subtitle">ЗОЖ</div>
+                <div class="block-04__buttons slider-buttons">
+                  <div class="block-04__button-left slider-buttons__left"></div>
+                  <div class="block-04__button-right slider-buttons__right"></div>
+                </div>
+              </div>
+              <div class="block-04__items card__items">
+                <div class="block-04__item card__item">
+                  <div class="block-04__item-img card__img"><img src="img/index/content/block-04/health01.png" alt="health01"><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                  <div class="block-04__item-body card__body">
+                    <div class="block-04__item-title card__title">Филк грудки утиное</div>
+                    <div class="block-04__item-from card__from">от Евгения Рошаля</div>
+                    <div class="block-04__item-discount card__discount">840 ₽</div>
+                    <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big card__price-big--red">795 ₽</span><span class="block-04__item-price-small card__price-small">/ 650 г</span></div>
+                  </div>
+                  <div class="block-04__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                  <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+                </div>
+                <div class="block-04__item card__item">
+                  <div class="block-04__item-img card__img"><img src="img/index/content/block-04/health02.png" alt="health02"><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                  <div class="block-04__item-body card__body">
+                    <div class="block-04__item-title card__title">Курица суповая</div>
+                    <div class="block-04__item-from card__from">от Евгения Рошаля</div>
+                    <div class="block-04__item-discount card__discount--empty"></div>
+                    <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big">395 ₽</span><span class="block-04__item-price-small card__price-small">/ 1,2 кг</span></div>
+                  </div>
+                  <div class="block-04__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                  <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="block-05">
+          <div class="block-05__header header-subtitle">
+            <h2 class="block-05__subtitle subtitle">Новинки</h2>
+            <div class="block-05__buttons slider-buttons">
+              <div class="block-05__button-left slider-buttons__left"></div>
+              <div class="block-05__button-right slider-buttons__right"></div>
+            </div>
+          </div>
+          <div class="block-05__items card__items">
+            <div class="block-05__item card__item">
+              <div class="block-05__item-img card__img"><img src="img/index/content/block-05/01.png" alt="img01"><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-05__item-body card__body">
+                <div class="block-05__item-title card__title">Помидоры "Бакинские"</div>
+                <div class="block-05__item-from card__from">от Greensmart</div>
+                <div class="block-05__item-discount card__discount">277 ₽</div>
+                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">245 ₽</span><span class="block-05__item-price-small card__price-small">/ 500 г</span></div>
+              </div>
+              <div class="block-05__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-05__item card__item">
+              <div class="block-05__item-img card__img"><img src="img/index/content/block-05/02.png" alt="img02"><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-05__item-body card__body">
+                <div class="block-05__item-title card__title">Фарш говяжий</div>
+                <div class="block-05__item-from card__from">от Вадима Рошки</div>
+                <div class="block-05__item-discount card__discount">200 ₽</div>
+                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">195 ₽</span><span class="block-05__item-price-small card__price-small">/ 400 г</span></div>
+              </div>
+              <div class="block-05__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-05__item card__item">
+              <div class="block-05__item-img card__img"><img src="img/index/content/block-05/03.png" alt="img03"><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-05__item-body card__body">
+                <div class="block-05__item-title card__title">Сыр "Губернаторский"</div>
+                <div class="block-05__item-from card__from">от Олега Сироты</div>
+                <div class="block-05__item-discount card__discount">300 ₽</div>
+                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">295 ₽</span><span class="block-05__item-price-small card__price-small">/ 300 г</span></div>
+              </div>
+              <div class="block-05__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-05__item card__item">
+              <div class="block-05__item-img card__img"><img src="img/index/content/block-05/04.png" alt="img04"><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-05__item-body card__body">
+                <div class="block-05__item-title card__title">Йогурт вишнёвый</div>
+                <div class="block-05__item-from card__from">от Олега Сироты</div>
+                <div class="block-05__item-discount card__discount">140 ₽</div>
+                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">95 ₽</span><span class="block-05__item-price-small card__price-small">/ 250 мл</span></div>
+              </div>
+              <div class="block-05__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-slider">
+        <div class="block-02 swiper-container">
+          <div class="block-02__mobitems mobile-card__items swiper-wrapper">
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m01.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Морковь средняя</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">115 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">100 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m02.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Капуста средняя</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">120 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">105 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m03.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Телятина</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">400 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">365 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Помидоры на ветке</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">150 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">170 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+            <div class="block-02__mobitem mobile-card__item swiper-slide">
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
+              <div class="block-02__mobitem-body mobile-card__body">
+                <div class="block-02__mobitem-title mobile-card__title">Мед сотовый</div>
+                <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                <div class="block-02__mobitem-price mobile-card__price">
+                  <div class="block-02__mobitem-discount mobile-card__discount">340 ₽</div>
+                  <div class="block-02__mobitem-price-big mobile-card__price-big">315 ₽ <span>/ кг </span></div>
+                </div>
+                <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container special">
+        <div class="blcok-06">
+          <div class="block-06__header header-subtitle">
+            <h2 class="block-06__subtitle subtitle">Специальные предложения</h2>
+            <div class="block-06__buttons slider-buttons">
+              <div class="block-06__button-left slider-buttons__left"></div>
+              <div class="block-06__button-right slider-buttons__right"></div>
+            </div>
+          </div>
+          <div class="block-06__items card__items">
+            <div class="block-06__item card__item">
+              <div class="block-06__item-img card__img"><img src="img/index/content/block-06/01.png" alt="img01"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-06__item-body card__body">
+                <div class="block-06__item-title card__title">Йогурт "Лесные ягоды"</div>
+                <div class="block-06__item-from card__from">от Ольги Друганиной</div>
+                <div class="block-06__item-discount card__discount">110 ₽</div>
+                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">95 ₽</span><span class="block-06__item-price-small card__price-small">/ 250 мл</span></div>
+              </div>
+              <div class="block-06__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-06__item card__item">
+              <div class="block-06__item-img card__img"><img src="img/index/content/block-06/02.png" alt="img02"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-06__item-body card__body">
+                <div class="block-06__item-title card__title">Яблоки “Симиренко”</div>
+                <div class="block-06__item-from card__from">от Вадима Рошки</div>
+                <div class="block-06__item-discount card__discount">195 ₽</div>
+                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">180 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
+              </div>
+              <div class="block-06__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-06__item card__item">
+              <div class="block-06__item-img card__img"><img src="img/index/content/block-06/03.png" alt="img03"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-06__item-body card__body">
+                <div class="block-06__item-title card__title">Редиска сладкая</div>
+                <div class="block-06__item-from card__from">от Василия Зайцева</div>
+                <div class="block-06__item-discount card__discount">120 ₽</div>
+                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">97 ₽</span><span class="block-06__item-price-small card__price-small">/ 500 г</span></div>
+              </div>
+              <div class="block-06__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+            <div class="block-06__item card__item">
+              <div class="block-06__item-img card__img"><img src="img/index/content/block-06/04.png" alt="img04"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+              <div class="block-06__item-body card__body">
+                <div class="block-06__item-title card__title">Морковь молодая</div>
+                <div class="block-06__item-from card__from">от Василия Зайцева</div>
+                <div class="block-06__item-discount card__discount">140 ₽</div>
+                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">75 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
+              </div>
+              <div class="block-06__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-slider">
+          <div class="block-02 swiper-container">
+            <div class="block-02__mobitems mobile-card__items swiper-wrapper">
+              <div class="block-02__mobitem mobile-card__item swiper-slide">
+                <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m01.png" alt="img01"></div>
+                <div class="block-02__mobitem-body mobile-card__body">
+                  <div class="block-02__mobitem-title mobile-card__title">Морковь средняя</div>
+                  <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                  <div class="block-02__mobitem-price mobile-card__price">
+                    <div class="block-02__mobitem-discount mobile-card__discount">115 ₽</div>
+                    <div class="block-02__mobitem-price-big mobile-card__price-big">100 ₽ <span>/ кг </span></div>
+                  </div>
+                  <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+                </div>
+              </div>
+              <div class="block-02__mobitem mobile-card__item swiper-slide">
+                <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m02.png" alt="img01"></div>
+                <div class="block-02__mobitem-body mobile-card__body">
+                  <div class="block-02__mobitem-title mobile-card__title">Капуста средняя</div>
+                  <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                  <div class="block-02__mobitem-price mobile-card__price">
+                    <div class="block-02__mobitem-discount mobile-card__discount">120 ₽</div>
+                    <div class="block-02__mobitem-price-big mobile-card__price-big">105 ₽ <span>/ кг </span></div>
+                  </div>
+                  <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+                </div>
+              </div>
+              <div class="block-02__mobitem mobile-card__item swiper-slide">
+                <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m03.png" alt="img01"></div>
+                <div class="block-02__mobitem-body mobile-card__body">
+                  <div class="block-02__mobitem-title mobile-card__title">Телятина</div>
+                  <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                  <div class="block-02__mobitem-price mobile-card__price">
+                    <div class="block-02__mobitem-discount mobile-card__discount">400 ₽</div>
+                    <div class="block-02__mobitem-price-big mobile-card__price-big">365 ₽ <span>/ кг </span></div>
+                  </div>
+                  <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+                </div>
+              </div>
+              <div class="block-02__mobitem mobile-card__item swiper-slide">
+                <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
+                <div class="block-02__mobitem-body mobile-card__body">
+                  <div class="block-02__mobitem-title mobile-card__title">Помидоры на ветке</div>
+                  <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                  <div class="block-02__mobitem-price mobile-card__price">
+                    <div class="block-02__mobitem-discount mobile-card__discount">150 ₽</div>
+                    <div class="block-02__mobitem-price-big mobile-card__price-big">170 ₽ <span>/ кг </span></div>
+                  </div>
+                  <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+                </div>
+              </div>
+              <div class="block-02__mobitem mobile-card__item swiper-slide">
+                <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
+                <div class="block-02__mobitem-body mobile-card__body">
+                  <div class="block-02__mobitem-title mobile-card__title">Мед сотовый</div>
+                  <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
+                  <div class="block-02__mobitem-price mobile-card__price">
+                    <div class="block-02__mobitem-discount mobile-card__discount">340 ₽</div>
+                    <div class="block-02__mobitem-price-big mobile-card__price-big">315 ₽ <span>/ кг </span></div>
+                  </div>
+                  <button class="block-02__mobitem-cart mobile-card__cart">В корзину<img src="img/index/content/block-02/addcart.svg" alt="addcart"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container care">
+        <div class="block-07">
+          <div class="block-07__header header-subtitle">
+            <h2 class="block-07__subtitle subtitle">С заботой о вас</h2>
+            <div class="block-07__buttons slider-buttons">
+              <div class="block-07__button-left slider-buttons__left"></div>
+              <div class="block-07__button-right slider-buttons__right"></div>
+            </div>
+          </div>
+          <div class="block-07__items">
+            <div class="block-07__item">
+              <div class="block-07__img"><img src="img/index/content/block-07/01.png" alt="01">
+                <div class="block-07__img-title">Школа <br> потребителя</div>
+                <div class="block-07__img-text"><span>Обзоры</span><span>Качество</span><span>Как производим</span></div>
+              </div>
+            </div>
+            <div class="block-07__item">
+              <div class="block-07__img"><img src="img/index/content/block-07/02.png" alt="02">
+                <div class="block-07__img-title block-07__img-title--mod">Забота <br> о родителях</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container container-slider">
+        <div class="block-08">
+          <div class="block-08__header header-subtitle">
+            <h2 class="block-08__subtitle subtitle">Вопросы и ответы</h2>
+            <div class="block-08__buttons slider-buttons">
+              <div class="block-08__button-left slider-buttons__left swiper__prev"></div>
+              <div class="block-08__button-right slider-buttons__right swiper__next"></div>
+            </div>
+          </div>
+          <div class="block-08__items swiper-container">
+            <div class="block-08__wrap swiper-wrapper">
+              <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Когда у вас <br> ближайшая доставка?</a></div>
+              <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Что значит <br> «график доставки?»</a></div>
+              <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Чем ваши продукты <br> отличаются от других?</a></div>
+              <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Кто ваши <br> производители?</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="block-08__mobile-button"><a class="block-08__btn" href="#">Выбрать адрес доставки</a></div>
+      </div>
+      <div class="container">
+        <div class="block-09">
+          <div class="block-09__header header-subtitle">
+            <h2 class="block-09__subtitle subtitle">Наши поставщики</h2>
+            <div class="block-09__buttons slider-buttons">
+              <div class="block-09__button-left slider-buttons__left"></div>
+              <div class="block-09__button-right slider-buttons__right"></div>
+            </div>
+          </div>
+          <div class="block-09__items">
+            <div class="block-09__item">
+              <div class="block-09__item-header">
+                <div class="block-09__item-img"><img src="img/index/content/block-09/photo01.png" alt="photo01"></div>
+                <div class="block-09__item-info">
+                  <div class="block-09__item-name card__title">Евгений Рошаль</div>
+                  <div class="block-09__item-provider card__from">поставщик птицы и яиц</div>
+                </div>
+              </div>
+              <div class="block-09__item-gallery">
+                <div class="block-09__item-photo"><img src="img/index/content/block-09/01a.png" alt="01a"></div>
+                <div class="block-09__item-photo"><img src="img/index/content/block-09/01b.png" alt="01b"></div>
+              </div>
+            </div>
+            <div class="block-09__item">
+              <div class="block-09__item-header">
+                <div class="block-09__item-img"><img src="img/index/content/block-09/photo02.png" alt="photo02"></div>
+                <div class="block-09__item-info">
+                  <div class="block-09__item-name card__title">Юрий Лейшан</div>
+                  <div class="block-09__item-provider card__from">поставщик овощей</div>
+                </div>
+              </div>
+              <div class="block-09__item-gallery">
+                <div class="block-09__item-photo"><img src="img/index/content/block-09/02a.png" alt="02a"></div>
+                <div class="block-09__item-photo"><img src="img/index/content/block-09/02b.png" alt="02b"></div>
+              </div>
+            </div>
+            <div class="block-09__item">
+              <div class="block-09__item-header">
+                <div class="block-09__item-img"><img src="img/index/content/block-09/photo03.png" alt="photo03"></div>
+                <div class="block-09__item-info">
+                  <div class="block-09__item-name card__title">Василий Зайцев</div>
+                  <div class="block-09__item-provider card__from">поставщик хлеба и яиц</div>
+                </div>
+              </div>
+              <div class="block-09__item-gallery">
+                <div class="block-09__item-photo"><img src="img/index/content/block-09/03a.png" alt="03a"></div>
+                <div class="block-09__item-photo"><img src="img/index/content/block-09/03b.png" alt="03b"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="block-10">
+          <div class="block-10__wrapper">
+            <p><span>«Greensmart»</span> — это онлайн сервис доставки здоровых натуральных продуктов с честным составом и коротким сроком хранения.<br> Мы объединили производителей и покупателей, а также, сократили путь,  для того, чтобы каждый день на вашем столе были <br> только свежие продукты, о которых можно узнать полную историю происхождения всего в 1 клик.</p>
+            <h3 class="block-10__subtitle">Заказ продуктов на дом</h3>
+            <p>Вы можете заказать натуральные продукты без минимальной суммы заказа, а мы всегда доставим бесплатно, даже если это всего <br> одна бутылка молока. Теперь нет необходимости закупаться впрок, остаточно указать в графике доставки любимого продукта, <br> день недели и нужное количество. С этого момента, у вас дома всегда будут только свежие и ароматные продукты. </p>
+            <h3 class="block-10__subtitle">С грядки на стол</h3>
+            <p>Все продукты изготавливаются для вас под заказ. Когда вы, указываете в графике доставки нужное количество продукта и <br> день его доставки, производители видят эту информацию и в день доставки подготавлявают продукты: самые свежие, вкусные.</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__container">
+            <div class="footer__body">
+              <div class="footer__body-left">
+                <div class="footer__header1">Помощь покупателю</div><a href="#">Доставка и оплата</a><a href="#">График доставки</a><a href="#">Вопросы и ответы</a><a href="#">Возврат продукции</a><a href="#">Рецепты</a><a href="#">Отзывы</a>
+                <div class="footer__header2">О компании</div><a href="#">О нас</a><a href="#">Качество</a><a href="#">Контакты</a><a class="footer__about-store" href="#"><img src="img/index/footer/appstore.svg" alt="app store"></a><a class="footer__about-hidden" href="#"><img src="img/index/footer/google.svg" alt="google play"></a>
+              </div>
+              <div class="footer__body-right">
+                <div class="footer__header3">Партнеры</div><a class="footer__about-hidden" href="#">Наши фермеры</a><a class="footer__about-hidden" href="#">Анкета поставщика</a><a class="footer__partners-cards1" href="#"><img src="img/index/footer/master.png" alt="m"><img src="img/index/footer/maestro.png" alt="m"></a><a class="footer__partners-cards2" href="#"><img src="img/index/footer/visa.png" alt="m"><img src="img/index/footer/mir.png" alt="m"></a>
+                <div class="footer__partners-pay"><a href="#"> <img src="img/index/footer/apay.svg" alt="apple pay"></a><a href="#"> <img src="img/index/footer/gpay.svg" alt="google pay"></a></div><a class="footer__social-phone1" href="tel:+7 499 653 67 66">+7 499 653 67 66</a><a class="footer__social-phone2" href="tel:+7 977 853 38 15">+7 977 853 38 15</a><a class="footer__social-link" href="#">Ежедневно с 7 до 23</a>
+                <div class="footer__social-icons"><a class="footer__social-icon" href="#"><img src="img/index/footer/social-insta.svg" alt="insta"></a><a class="footer__social-icon" href="#"><img src="img/index/footer/social-vk.svg" alt="vk"></a><a class="footer__social-icon" href="#"><img src="img/index/footer/social-fb.svg" alt="fb"></a><a class="footer__social-icon" href="#"><img src="img/index/footer/social-zen.svg" alt="zen"></a></div><a class="footer__social-link1" href="#">Обратная связь</a><a class="footer__social-link2" href="#">Новости</a>
+              </div>
+            </div>
+            <div class="footer__body-bottom">
+              <div class="footer__body-bottom-copy">© 2019-2021 – Greensmart</div><a class="footer__body-bottom-item" href="#">Политика конфиденциальности</a><a class="footer__body-bottom-item" href="#">Оферта</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>
