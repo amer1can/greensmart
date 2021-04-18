@@ -1,13 +1,5 @@
 @charset "UTF-8";
-/* <ПРИМЕР>
-@font-face {
-   font-family: 'UniversCE';
-   src: url('../fonts/Univers CE 45 Light.eot');
-   src: local('☺'), url('../fonts/Univers CE 45 Light.woff') format('woff'), url('../fonts/Univers CE 45 Light.ttf') format('truetype'), url('../fonts/Univers CE 45 Light.svg') format('svg');
-   font-weight: 300;
-   font-style: normal;
-}
-*/
+
 * {
   padding: 0px;
   margin: 0px;
