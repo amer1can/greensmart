@@ -9,8 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Rasa:wght@600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.min.css">
-    <link rel="preload" href="./css/swiper-bundle.css" as="style">
-    <link rel="preload" href="./css/style.min.css" as="style">
     <title>Green Smart</title>
   </head>
   <body>
@@ -25,12 +23,99 @@
             <div class="header__info"><a class="header__info-actions" href="#">Акции</a><a class="header__info-prime" href="#">Greensmart Prime</a><a class="header__info-aboutdelivery" href="#">О доставке</a></div>
           </div>
           <div class="header__bottom">
-            <div class="header__menu"><a href="#">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 12H22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M2 17H16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M2 7H22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg></a><a class="header__catalog" href="#">Каталог продуктов</a></div>
+            <div class="header__menu">
+              <div class="header__icon"><span></span><span></span><span></span></div>
+              <div class="header__catalog">Каталог продуктов</div>
+              <div class="header__menu-list">
+                <ul class="header__menu-ul"> 
+                  <li class="header__menu-li"><a class="header__menu-link header__menu-link-green" href="#">Новинки</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">        </path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link header__menu-link-green" href="#">Специальные предложения</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link header__menu-link-green" href="#">Хиты</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Молочные продукты, яйцо</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Овощи, фрукты, зелень</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Сыры</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Мясо и птица</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Хлеб и выпечка</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Бакалея</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Рыба</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Заморозка</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Сладости</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Данары</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Ролы, суши</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Шоколад</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Дичь</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                  <li class="header__menu-li"><a class="header__menu-link" href="#">Салаты</a>
+                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none">
+                      <path d="M1 1L8 7L1 13" stroke="#B8BDD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div class="header__search-wrap">
               <input class="header__search" type="text" name="search" placeholder="Поиск по товарам, рецептам и статьям">
             </div>
@@ -51,50 +136,50 @@
               <div class="header__summary">0 ₽</div>
             </div>
           </div>
-          <div class="header__products">
-            <div class="header__products-btn"></div>
-            <ul class="header__products-items">
-              <li><a class="header__products-item header__products-item-select" href="#">Молоко</a></li>
-              <li><a class="header__products-item header__products-item-select" href="#">Хлеб</a></li>
-              <li><a class="header__products-item header__products-item-select" href="#">Мясо и Птица</a></li>
-              <li><a class="header__products-item" href="#">Сыр</a></li>
-              <li><a class="header__products-item" href="#">Овощи</a></li>
-              <li><a class="header__products-item" href="#">Масло</a></li>
-              <li><a class="header__products-item" href="#">Картофель</a></li>
-              <li><a class="header__products-item" href="#">Яйца</a></li>
-              <li><a class="header__products-item" href="#">Сладости</a></li>
-              <li><a class="header__products-item" href="#">Творог</a></li>
-              <li><a class="header__products-item" href="#">Кефир</a></li>
-              <li><a class="header__products-item" href="#">Вода</a></li>
-            </ul>
-            <div class="header__products-btn header__products-btn-transform"></div>
-            <nav class="header__main-nav">
-              <ul class="header__main-nav-list">
-                <li></li>
+          <div class="header__products-wrap">
+            <div class="header__products swiper-container">
+              <ul class="header__products-items swiper-wrapper">
+                <li class="swiper-slide"><a class="header__products-item header__products-item-select" href="#">Молоко</a></li>
+                <li class="swiper-slide"><a class="header__products-item header__products-item-select" href="#">Хлеб</a></li>
+                <li class="swiper-slide"><a class="header__products-item header__products-item-select" href="#">Мясо и Птица</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Сыр</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Овощи</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Масло</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Картофель</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Яйца</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Сладости</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Творог</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Кефир</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Вода</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Мука</a></li>
+                <li class="swiper-slide"><a class="header__products-item" href="#">Сахар</a></li>
               </ul>
-            </nav>
+            </div>
+            <div class="header__products-prev"></div>
+            <div class="header__products-next"> </div>
           </div>
         </header>
       </div>
       <div class="container container-full">
         <div class="block-01">
-          <div class="block-01__slider">
-            <div class="block-01__items">
-              <div class="block-01__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-01/01.webp"><img src="img/index/content/block-01/01.png" alt="photo1">
-                </picture>
-                <div class="block-01__header">Попробуйте свежую <br> зелень с грядки</div>
-                <div class="block-01__icon">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-01/img-cart.webp"><img src="img/index/content/block-01/img-cart.png" alt="icon cart">
-                  </picture>
-                </div>
-                <div class="block-01__buttons slider-buttons">
-                  <div class="block-01__btn-left slider-buttons__left"></div>
-                  <div class="block-01__btn-right slider-buttons__right"></div>
-                </div>
-              </div>
+          <div class="block-01__slider swiper-container">
+            <div class="block-01__items swiper-wrapper">
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/01.png" alt="01"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/02.png" alt="02"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/03.png" alt="03"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/04.png" alt="04"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/05.png" alt="05"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/06.png" alt="06"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/07.png" alt="07"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/08.png" alt="08"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/09.png" alt="09"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/10.png" alt="1006"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/11.png" alt="11"></div>
+              <div class="block-01__img swiper-slide"><img src="img/index/content/block-01/12.png" alt="12"></div>
+            </div>
+            <div class="block-01__buttons slider-buttons">
+              <div class="block-01__btn-left slider-buttons__left"></div>
+              <div class="block-01__btn-right slider-buttons__right"></div>
             </div>
           </div>
           <div class="block-01__comment"><span class="block-01__comment-min">Нет минимальной суммы заказа</span><span class="block-01__comment-deliv">Доставка всегда 0 ₽</span></div>
@@ -106,10 +191,16 @@
               <li><a class="block-01__list-item" href="#">Делаем жить проще</a></li>
               <li><a class="block-01__list-item" href="#">Для семейного ужина</a></li>
               <li><a class="block-01__list-item" href="#">Сырная история</a></li>
+              <li><a class="block-01__list-item" href="#">Свежевыжатые соки</a></li>
+              <li><a class="block-01__list-item" href="#">Любимый продукт</a></li>
+              <li><a class="block-01__list-item" href="#">Добрые крышечки</a></li>
+              <li><a class="block-01__list-item" href="#">Пробная корзина</a></li>
+              <li><a class="block-01__list-item" href="#">Забота о родителях</a></li>
+              <li><a class="block-01__list-item" href="#">Дарим 500 рублей</a></li>
             </ul>
           </div>
         </div>
-        <div class="block-01__mobile container">
+        <div class="block-01__mobile">
           <div class="block-01__mobile-items">
             <div class="block-01__mobile-item">
               <div class="block-01__mobile-icon"><img src="img/index/content/block-01/catalog.svg" alt="catalog"></div>
@@ -135,95 +226,95 @@
               <div class="block-02__button-right slider-buttons__right"></div>
             </div>
           </div>
-          <div class="block-02__items card__items">
-            <div class="block-02__item card__item">
-              <div class="block-02__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/01.webp"><img src="img/index/content/block-02/01.png" alt="img01">
-                </picture><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+          <div class="block-02__items-wrap swiper-container">
+            <div class="block-02__items card__items swiper-wrapper">
+              <div class="block-02__item card__item swiper-slide">
+                <div class="block-02__item-img card__img"><img src="img/index/content/block-02/01.png" alt="img01">
+                  <div class="block-02__item-like card__like"><img src="img/index/content/block-02/like.svg" alt="like"></div>
+                </div>
+                <div class="block-02__item-body card__body">
+                  <div class="block-02__item-title card__title">Молоко 3,2 %</div>
+                  <div class="block-02__item-from card__from">от Вадима Рошки</div>
+                  <div class="block-02__item-discount card__discount--empty"> </div>
+                  <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">95 ₽</span><span class="block-02__item-price-small card__price-small">/ 0,93 л</span></div>
+                </div>
+                <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-02__item-body card__body">
-                <div class="block-02__item-title card__title">Молоко 3,2 %</div>
-                <div class="block-02__item-from card__from">от Вадима Рошки</div>
-                <div class="block-02__item-discount card__discount--empty"> </div>
-                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">95 ₽</span><span class="block-02__item-price-small card__price-small">/ 0,93 л</span></div>
+              <div class="block-02__item card__item swiper-slide">
+                <div class="block-02__item-img card__img"><img src="img/index/content/block-02/02.png" alt="img02">
+                  <div class="block-02__item-like card__like"><img src="img/index/content/block-02/like.svg" alt="like"></div>
+                </div>
+                <div class="block-02__item-body card__body">
+                  <div class="block-02__item-title card__title">Хлеб пшеничный</div>
+                  <div class="block-02__item-from card__from">от Дарьи и Марии</div>
+                  <div class="block-02__item-discount card__discount--empty"> </div>
+                  <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">95 ₽</span><span class="block-02__item-price-small card__small">/ 930 г</span></div>
+                </div>
+                <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-02__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
+              <div class="block-02__item card__item swiper-slide">
+                <div class="block-02__item-img card__img"><img src="img/index/content/block-02/03.png" alt="img03">
+                  <div class="block-02__item-like card__like"><img src="img/index/content/block-02/like.svg" alt="like"></div>
+                </div>
+                <div class="block-02__item-body card__body">
+                  <div class="block-02__item-title card__title">Яйца куриные</div>
+                  <div class="block-02__item-from card__from">от Евгения Рошаль</div>
+                  <div class="block-02__item-discount card__discount--empty"> </div>
+                  <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">120 ₽</span><span class="block-02__item-price-small card__samll">/ 10 шт</span></div>
+                </div>
+                <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-02__item card__item">
-              <div class="block-02__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/02.webp"><img src="img/index/content/block-02/02.png" alt="img02">
-                </picture><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+              <div class="block-02__item card__item swiper-slide">
+                <div class="block-02__item-img card__img"><img src="img/index/content/block-02/04.png" alt="img04">
+                  <div class="block-02__item-like card__like"><img src="img/index/content/block-02/like.svg" alt="like"></div>
+                </div>
+                <div class="block-02__item-body card__body">
+                  <div class="block-02__item-title card__title">Масло сливочное 82%</div>
+                  <div class="block-02__item-from card__from">от Вадима Рошки</div>
+                  <div class="block-02__item-discount card__discount--empty"> </div>
+                  <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">290 ₽</span><span class="block-02__item-price-small card__small">/ 250 гр</span></div>
+                </div>
+                <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-02__item-cart card__cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-02__item-body card__body">
-                <div class="block-02__item-title card__title">Хлеб пшеничный</div>
-                <div class="block-02__item-from card__from">от Дарьи и Марии</div>
-                <div class="block-02__item-discount card__discount--empty"> </div>
-                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">95 ₽</span><span class="block-02__item-price-small card__small">/ 930 г</span></div>
+              <div class="block-02__item card__item swiper-slide">
+                <div class="block-02__item-img card__img"><img src="img/index/content/block-02/01.png" alt="img01">
+                  <div class="block-02__item-like card__like"><img src="img/index/content/block-02/like.svg" alt="like"></div>
+                </div>
+                <div class="block-02__item-body card__body">
+                  <div class="block-02__item-title card__title">Молоко 2.0 %</div>
+                  <div class="block-02__item-from card__from">от Гены Артомонова</div>
+                  <div class="block-02__item-discount card__discount--empty"> </div>
+                  <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__price-big">75 ₽</span><span class="block-02__item-price-small card__price-small">/ 0,9 л</span></div>
+                </div>
+                <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-02__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
+              <div class="block-02__item card__item swiper-slide">
+                <div class="block-02__item-img card__img"><img src="img/index/content/block-02/03.png" alt="img03">
+                  <div class="block-02__item-like card__like"><img src="img/index/content/block-02/like.svg" alt="like"></div>
+                </div>
+                <div class="block-02__item-body card__body">
+                  <div class="block-02__item-title card__title">Яйца куриные LUXE</div>
+                  <div class="block-02__item-from card__from">от Евгения Рошаль</div>
+                  <div class="block-02__item-discount card__discount--empty"> </div>
+                  <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">170 ₽</span><span class="block-02__item-price-small card__samll">/ 10 шт</span></div>
+                </div>
+                <div class="block-02__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-02__item card__item">
-              <div class="block-02__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/03.webp"><img src="img/index/content/block-02/03.png" alt="img03">
-                </picture><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
-              </div>
-              <div class="block-02__item-body card__body">
-                <div class="block-02__item-title card__title">Яйца куриные</div>
-                <div class="block-02__item-from card__from">от Евгения Рошаль</div>
-                <div class="block-02__item-discount card__discount--empty"> </div>
-                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">120 ₽</span><span class="block-02__item-price-small card__samll">/ 10 шт</span></div>
-              </div>
-              <div class="block-02__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
-              </div>
-              <div class="block-02__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-02__item card__item">
-              <div class="block-02__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/04.webp"><img src="img/index/content/block-02/04.png" alt="img04">
-                </picture><a class="block-02__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
-              </div>
-              <div class="block-02__item-body card__body">
-                <div class="block-02__item-title card__title">Масло сливочное 82%</div>
-                <div class="block-02__item-from card__from">от Вадима Рошки</div>
-                <div class="block-02__item-discount card__discount--empty"> </div>
-                <div class="block-02__item-price card__price"><span class="block-02__item-price-big card__big">290 ₽</span><span class="block-02__item-price-small card__small">/ 250 гр</span></div>
-              </div>
-              <div class="block-02__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
-              </div>
-              <div class="block-02__item-cart card__cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-slider">
-        <div class="block-02 swiper-container">
+      <div class="container container-slider">
+        <div class="block-02__mob swiper-container">
           <div class="block-02__mobitems mobile-card__items swiper-wrapper">
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m01.webp"><img src="img/index/content/block-02/m01.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m01.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Морковь средняя</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -235,11 +326,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m02.webp"><img src="img/index/content/block-02/m02.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m02.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Капуста средняя</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -251,11 +338,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m03.webp"><img src="img/index/content/block-02/m03.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m03.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Телятина</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -267,11 +350,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m04.webp"><img src="img/index/content/block-02/m04.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Помидоры на ветке</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -283,11 +362,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m04.webp"><img src="img/index/content/block-02/m04.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Мед сотовый</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -323,9 +398,7 @@
         <div class="block-03">
           <div class="block-03__subtitle subtitle">Каждый день <span>только</span> свежие продукты</div>
           <div class="block-03__img">
-            <picture>
-              <source type="image/webp" srcset="img/index/content/block-03/01.webp"><img src="img/index/content/block-03/01.png" alt="video slide">
-            </picture>
+            <picture><img src="img/index/content/block-03/01.png" alt="video slide"></picture>
             <div class="block-03__icon-play"></div>
           </div>
         </div>
@@ -341,23 +414,44 @@
                   <div class="block-04__button-right slider-buttons__right"></div>
                 </div>
               </div>
-              <div class="block-04__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-04/01.webp"><img src="img/index/content/block-04/01.png" alt="recipes01">
-                </picture>
-                <div class="block-04__window">На завтрак "Весёлые ушки"</div>
-                <div class="block-04__buy-window">
-                  <div class="block-04__products"><a href="#">
-                      <picture>
-                        <source type="image/webp" srcset="img/index/content/block-04/prod1.webp"><img src="img/index/content/block-04/prod1.png" alt="prod1">
-                      </picture></a><a href="#">
-                      <picture>
-                        <source type="image/webp" srcset="img/index/content/block-04/prod2.webp"><img src="img/index/content/block-04/prod2.png" alt="prod2">
-                      </picture></a><a href="#">
-                      <picture>
-                        <source type="image/webp" srcset="img/index/content/block-04/prod3.webp"><img src="img/index/content/block-04/prod3.png" alt="prod3">
-                      </picture></a></div>
-                  <div class="block-04__products-btn"><a class="block-04__buy-products-btn btn" href="#">Купить ингредиенты</a></div>
+              <div class="block-04__rec-wrap swiper-container">
+                <div class="block-04__rec-items swiper-wrapper">
+                  <div class="block-04__img swiper-slide"><img src="img/index/content/block-04/01.png" alt="recipes01">
+                    <div class="block-04__window">На завтрак "Весёлые ушки"</div>
+                    <div class="block-04__buy-window">
+                      <div class="block-04__buy-window-wrap">
+                        <div class="block-04__products-wrap swiper-container">
+                          <div class="block-04__products swiper-wrapper">
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod1.png" alt="prod1"></div>
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod2.png" alt="prod2"></div>
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod3.png" alt="prod3"></div>
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod1.png" alt="prod1"></div>
+                          </div>
+                        </div>
+                        <div class="block-04__btn-left"></div>
+                        <div class="block-04__btn-right"></div>
+                      </div>
+                      <div class="block-04__products-btn"><a class="block-04__buy-products-btn btn" href="#">Купить ингредиенты</a></div>
+                    </div>
+                  </div>
+                  <div class="block-04__img swiper-slide"><img src="img/index/content/block-04/01.png" alt="recipes01">
+                    <div class="block-04__window">На обед "Шустрые лапки"</div>
+                    <div class="block-04__buy-window">
+                      <div class="block-04__buy-window-wrap">
+                        <div class="block-04__products-wrap swiper-container">
+                          <div class="block-04__products swiper-wrapper">
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod3.png" alt="prod3"></div>
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod1.png" alt="prod1"></div>
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod2.png" alt="prod2"></div>
+                            <div class="block-04__slide swiper-slide"><img src="img/index/content/block-04/prod3.png" alt="prod3"></div>
+                          </div>
+                        </div>
+                        <div class="block-04__btn-left"></div>
+                        <div class="block-04__btn-right"></div>
+                      </div>
+                      <div class="block-04__products-btn"><a class="block-04__buy-products-btn btn" href="#">Купить ингредиенты</a></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -365,48 +459,60 @@
               <div class="block-04__header header-subtitle">
                 <div class="block-04__subtitle subtitle">ЗОЖ</div>
                 <div class="block-04__buttons slider-buttons">
-                  <div class="block-04__button-left slider-buttons__left"></div>
-                  <div class="block-04__button-right slider-buttons__right"></div>
+                  <div class="block-04__button-left2 slider-buttons__left"></div>
+                  <div class="block-04__button-right2 slider-buttons__right"></div>
                 </div>
               </div>
-              <div class="block-04__items card__items">
-                <div class="block-04__item card__item">
-                  <div class="block-04__item-img card__img">
-                    <picture>
-                      <source type="image/webp" srcset="img/index/content/block-04/health01.webp"><img src="img/index/content/block-04/health01.png" alt="health01">
-                    </picture><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+              <div class="block-04__items-wrap swiper-container">
+                <div class="block-04__items card__items swiper-wrapper">
+                  <div class="block-04__item card__item swiper-slide">
+                    <div class="block-04__item-img card__img"><img src="img/index/content/block-04/health01.png" alt="health01"><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                    <div class="block-04__item-body card__body">
+                      <div class="block-04__item-title card__title">Филк грудки утиное</div>
+                      <div class="block-04__item-from card__from">от Евгения Рошаля</div>
+                      <div class="block-04__item-discount card__discount">840 ₽</div>
+                      <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big card__price-big--red">795 ₽</span><span class="block-04__item-price-small card__price-small">/ 650 г</span></div>
+                    </div>
+                    <div class="block-04__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                    <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
                   </div>
-                  <div class="block-04__item-body card__body">
-                    <div class="block-04__item-title card__title">Филк грудки утиное</div>
-                    <div class="block-04__item-from card__from">от Евгения Рошаля</div>
-                    <div class="block-04__item-discount card__discount">840 ₽</div>
-                    <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big card__price-big--red">795 ₽</span><span class="block-04__item-price-small card__price-small">/ 650 г</span></div>
+                  <div class="block-04__item card__item swiper-slide">
+                    <div class="block-04__item-img card__img"><img src="img/index/content/block-04/health02.png" alt="health02"><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                    <div class="block-04__item-body card__body">
+                      <div class="block-04__item-title card__title">Курица суповая</div>
+                      <div class="block-04__item-from card__from">от Евгения Рошаля</div>
+                      <div class="block-04__item-discount card__discount--empty"></div>
+                      <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big">395 ₽</span><span class="block-04__item-price-small card__price-small">/ 1,2 кг</span></div>
+                    </div>
+                    <div class="block-04__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                    <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
                   </div>
-                  <div class="block-04__item-rate card__rate">
-                    <picture>
-                      <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                    </picture>
+                  <div class="block-04__item card__item swiper-slide">
+                    <div class="block-04__item-img card__img"><img src="img/index/content/block-04/health01.png" alt="health01"><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                    <div class="block-04__item-body card__body">
+                      <div class="block-04__item-title card__title">Филк грудки страуса</div>
+                      <div class="block-04__item-from card__from">от Евгения Рошаля</div>
+                      <div class="block-04__item-discount card__discount">1840 ₽</div>
+                      <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big card__price-big--red">1795 ₽</span><span class="block-04__item-price-small card__price-small">/ 650 г</span></div>
+                    </div>
+                    <div class="block-04__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                    <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
                   </div>
-                  <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-                </div>
-                <div class="block-04__item card__item">
-                  <div class="block-04__item-img card__img">
-                    <picture>
-                      <source type="image/webp" srcset="img/index/content/block-04/health02.webp"><img src="img/index/content/block-04/health02.png" alt="health02">
-                    </picture><a class="block-04__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                  <div class="block-04__item card__item swiper-slide">
+                    <div class="block-04__item-img card__img">
+                      <picture><img src="img/index/content/block-05/02.png" alt="img02"></picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                    </div>
+                    <div class="block-04__item-body card__body">
+                      <div class="block-04__item-title card__title">Фарш говяжий</div>
+                      <div class="block-04__item-from card__from">от Вадима Рошки</div>
+                      <div class="block-04__item-discount card__discount">200 ₽</div>
+                      <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big card__price-big--red">195 ₽</span><span class="block-04__item-price-small card__price-small">/ 400 г</span></div>
+                    </div>
+                    <div class="block-04__item-rate card__rate">
+                      <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                    </div>
+                    <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
                   </div>
-                  <div class="block-04__item-body card__body">
-                    <div class="block-04__item-title card__title">Курица суповая</div>
-                    <div class="block-04__item-from card__from">от Евгения Рошаля</div>
-                    <div class="block-04__item-discount card__discount--empty"></div>
-                    <div class="block-04__item-price card__price"><span class="block-04__item-price-big card__price-big">395 ₽</span><span class="block-04__item-price-small card__price-small">/ 1,2 кг</span></div>
-                  </div>
-                  <div class="block-04__item-rate card__rate">
-                    <picture>
-                      <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                    </picture>
-                  </div>
-                  <div class="block-04__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
                 </div>
               </div>
             </div>
@@ -422,95 +528,103 @@
               <div class="block-05__button-right slider-buttons__right"></div>
             </div>
           </div>
-          <div class="block-05__items card__items">
-            <div class="block-05__item card__item">
-              <div class="block-05__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-05/01.webp"><img src="img/index/content/block-05/01.png" alt="img01">
-                </picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+          <div class="block-05__items-wrap swiper-container">
+            <div class="block-05__items card__items swiper-wrapper">
+              <div class="block-05__item card__item swiper-slide">
+                <div class="block-05__item-img card__img">
+                  <picture><img src="img/index/content/block-05/01.png" alt="img01"></picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                </div>
+                <div class="block-05__item-body card__body">
+                  <div class="block-05__item-title card__title">Помидоры "Бакинские"</div>
+                  <div class="block-05__item-from card__from">от Greensmart</div>
+                  <div class="block-05__item-discount card__discount">277 ₽</div>
+                  <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">245 ₽</span><span class="block-05__item-price-small card__price-small">/ 500 г</span></div>
+                </div>
+                <div class="block-05__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-05__item-body card__body">
-                <div class="block-05__item-title card__title">Помидоры "Бакинские"</div>
-                <div class="block-05__item-from card__from">от Greensmart</div>
-                <div class="block-05__item-discount card__discount">277 ₽</div>
-                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">245 ₽</span><span class="block-05__item-price-small card__price-small">/ 500 г</span></div>
+              <div class="block-05__item card__item swiper-slide">
+                <div class="block-05__item-img card__img"><img src="img/index/content/block-05/02.png" alt="img02"><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                <div class="block-05__item-body card__body">
+                  <div class="block-05__item-title card__title">Фарш говяжий</div>
+                  <div class="block-05__item-from card__from">от Вадима Рошки</div>
+                  <div class="block-05__item-discount card__discount">200 ₽</div>
+                  <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">195 ₽</span><span class="block-05__item-price-small card__price-small">/ 400 г</span></div>
+                </div>
+                <div class="block-05__item-rate card__rate"><img src="img/index/content/block-02/stars.png" alt="stars"></div>
+                <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-05__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
+              <div class="block-05__item card__item swiper-slide">
+                <div class="block-05__item-img card__img">
+                  <picture><img src="img/index/content/block-05/03.png" alt="img03"></picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                </div>
+                <div class="block-05__item-body card__body">
+                  <div class="block-05__item-title card__title">Сыр "Губернаторский"</div>
+                  <div class="block-05__item-from card__from">от Олега Сироты</div>
+                  <div class="block-05__item-discount card__discount">300 ₽</div>
+                  <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">295 ₽</span><span class="block-05__item-price-small card__price-small">/ 300 г</span></div>
+                </div>
+                <div class="block-05__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-05__item card__item">
-              <div class="block-05__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-05/02.webp"><img src="img/index/content/block-05/02.png" alt="img02">
-                </picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+              <div class="block-05__item card__item swiper-slide">
+                <div class="block-05__item-img card__img">
+                  <picture><img src="img/index/content/block-05/04.png" alt="img04"></picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                </div>
+                <div class="block-05__item-body card__body">
+                  <div class="block-05__item-title card__title">Йогурт вишнёвый</div>
+                  <div class="block-05__item-from card__from">от Олега Сироты</div>
+                  <div class="block-05__item-discount card__discount">140 ₽</div>
+                  <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">95 ₽</span><span class="block-05__item-price-small card__price-small">/ 250 мл</span></div>
+                </div>
+                <div class="block-05__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-05__item-body card__body">
-                <div class="block-05__item-title card__title">Фарш говяжий</div>
-                <div class="block-05__item-from card__from">от Вадима Рошки</div>
-                <div class="block-05__item-discount card__discount">200 ₽</div>
-                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">195 ₽</span><span class="block-05__item-price-small card__price-small">/ 400 г</span></div>
+              <div class="block-05__item card__item swiper-slide">
+                <div class="block-05__item-img card__img">
+                  <picture><img src="img/index/content/block-05/02.png" alt="img02"></picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                </div>
+                <div class="block-05__item-body card__body">
+                  <div class="block-05__item-title card__title">Фарш свиной</div>
+                  <div class="block-05__item-from card__from">от Вадима Рошки</div>
+                  <div class="block-05__item-discount card__discount">170 ₽</div>
+                  <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">185 ₽</span><span class="block-05__item-price-small card__price-small">/ 430 г</span></div>
+                </div>
+                <div class="block-05__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-05__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
+              <div class="block-05__item card__item swiper-slide">
+                <div class="block-05__item-img card__img">
+                  <picture><img src="img/index/content/block-05/03.png" alt="img03"></picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                </div>
+                <div class="block-05__item-body card__body">
+                  <div class="block-05__item-title card__title">Сыр "Купеческий"</div>
+                  <div class="block-05__item-from card__from">от Олега Сироты</div>
+                  <div class="block-05__item-discount card__discount">360 ₽</div>
+                  <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">310 ₽</span><span class="block-05__item-price-small card__price-small">/ 300 г</span></div>
+                </div>
+                <div class="block-05__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-05__item card__item">
-              <div class="block-05__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-05/03.webp"><img src="img/index/content/block-05/03.png" alt="img03">
-                </picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
-              </div>
-              <div class="block-05__item-body card__body">
-                <div class="block-05__item-title card__title">Сыр "Губернаторский"</div>
-                <div class="block-05__item-from card__from">от Олега Сироты</div>
-                <div class="block-05__item-discount card__discount">300 ₽</div>
-                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">295 ₽</span><span class="block-05__item-price-small card__price-small">/ 300 г</span></div>
-              </div>
-              <div class="block-05__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
-              </div>
-              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-05__item card__item">
-              <div class="block-05__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-05/04.webp"><img src="img/index/content/block-05/04.png" alt="img04">
-                </picture><a class="block-05__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
-              </div>
-              <div class="block-05__item-body card__body">
-                <div class="block-05__item-title card__title">Йогурт вишнёвый</div>
-                <div class="block-05__item-from card__from">от Олега Сироты</div>
-                <div class="block-05__item-discount card__discount">140 ₽</div>
-                <div class="block-05__item-price card__price"><span class="block-05__item-price-big card__price-big card__price-big--red">95 ₽</span><span class="block-05__item-price-small card__price-small">/ 250 мл</span></div>
-              </div>
-              <div class="block-05__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
-              </div>
-              <div class="block-05__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-slider">
-        <div class="block-02 swiper-container">
+      <div class="container container-slider">
+        <div class="block-02__mob swiper-container">
           <div class="block-02__mobitems mobile-card__items swiper-wrapper">
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m01.webp"><img src="img/index/content/block-02/m01.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m01.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Морковь средняя</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -522,11 +636,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m02.webp"><img src="img/index/content/block-02/m02.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m02.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Капуста средняя</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -538,11 +648,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m03.webp"><img src="img/index/content/block-02/m03.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m03.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Телятина</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -554,11 +660,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m04.webp"><img src="img/index/content/block-02/m04.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Помидоры на ветке</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -570,11 +672,7 @@
               </div>
             </div>
             <div class="block-02__mobitem mobile-card__item swiper-slide">
-              <div class="block-02__mobitem-img mobile-card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/m04.webp"><img src="img/index/content/block-02/m04.png" alt="img01">
-                </picture>
-              </div>
+              <div class="block-02__mobitem-img mobile-card__img"><img src="img/index/content/block-02/m04.png" alt="img01"></div>
               <div class="block-02__mobitem-body mobile-card__body">
                 <div class="block-02__mobitem-title mobile-card__title">Мед сотовый</div>
                 <div class="block-02__mobitem-from mobile-card__from">от Татьяны Сметаниной</div>
@@ -589,7 +687,7 @@
         </div>
       </div>
       <div class="container special">
-        <div class="blcok-06">
+        <div class="block-06">
           <div class="block-06__header header-subtitle">
             <h2 class="block-06__subtitle subtitle">Специальные предложения</h2>
             <div class="block-06__buttons slider-buttons">
@@ -597,93 +695,97 @@
               <div class="block-06__button-right slider-buttons__right"></div>
             </div>
           </div>
-          <div class="block-06__items card__items">
-            <div class="block-06__item card__item">
-              <div class="block-06__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-06/01.webp"><img src="img/index/content/block-06/01.png" alt="img01">
-                </picture><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+          <div class="block-06__items-wrap swiper-container">
+            <div class="block-06__items card__items swiper-wrapper">
+              <div class="block-06__item card__item swiper-slide">
+                <div class="block-06__item-img card__img"><img src="img/index/content/block-06/01.png" alt="img01"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                <div class="block-06__item-body card__body">
+                  <div class="block-06__item-title card__title">Йогурт "Лесные ягоды"</div>
+                  <div class="block-06__item-from card__from">от Ольги Друганиной</div>
+                  <div class="block-06__item-discount card__discount">110 ₽</div>
+                  <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">95 ₽</span><span class="block-06__item-price-small card__price-small">/ 250 мл</span></div>
+                </div>
+                <div class="block-06__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-06__item-body card__body">
-                <div class="block-06__item-title card__title">Йогурт "Лесные ягоды"</div>
-                <div class="block-06__item-from card__from">от Ольги Друганиной</div>
-                <div class="block-06__item-discount card__discount">110 ₽</div>
-                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">95 ₽</span><span class="block-06__item-price-small card__price-small">/ 250 мл</span></div>
+              <div class="block-06__item card__item swiper-slide">
+                <div class="block-06__item-img card__img">
+                  <picture><img src="img/index/content/block-06/02.png" alt="img02"></picture><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+                </div>
+                <div class="block-06__item-body card__body">
+                  <div class="block-06__item-title card__title">Яблоки “Симиренко”</div>
+                  <div class="block-06__item-from card__from">от Вадима Рошки</div>
+                  <div class="block-06__item-discount card__discount">195 ₽</div>
+                  <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">180 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
+                </div>
+                <div class="block-06__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-06__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
+              <div class="block-06__item card__item swiper-slide">
+                <div class="block-06__item-img card__img"><img src="img/index/content/block-06/03.png" alt="img03"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                <div class="block-06__item-body card__body">
+                  <div class="block-06__item-title card__title">Редиска сладкая</div>
+                  <div class="block-06__item-from card__from">от Василия Зайцева</div>
+                  <div class="block-06__item-discount card__discount">120 ₽</div>
+                  <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">97 ₽</span><span class="block-06__item-price-small card__price-small">/ 500 г</span></div>
+                </div>
+                <div class="block-06__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-06__item card__item">
-              <div class="block-06__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-06/02.webp"><img src="img/index/content/block-06/02.png" alt="img02">
-                </picture><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
+              <div class="block-06__item card__item swiper-slide">
+                <div class="block-06__item-img card__img"><img src="img/index/content/block-06/04.png" alt="img04"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                <div class="block-06__item-body card__body">
+                  <div class="block-06__item-title card__title">Морковь молодая</div>
+                  <div class="block-06__item-from card__from">от Василия Зайцева</div>
+                  <div class="block-06__item-discount card__discount">140 ₽</div>
+                  <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">75 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
+                </div>
+                <div class="block-06__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-06__item-body card__body">
-                <div class="block-06__item-title card__title">Яблоки “Симиренко”</div>
-                <div class="block-06__item-from card__from">от Вадима Рошки</div>
-                <div class="block-06__item-discount card__discount">195 ₽</div>
-                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">180 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
+              <div class="block-06__item card__item swiper-slide">
+                <div class="block-06__item-img card__img"><img src="img/index/content/block-06/02.png" alt="img02"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                <div class="block-06__item-body card__body">
+                  <div class="block-06__item-title card__title">Яблоки “Василенко”</div>
+                  <div class="block-06__item-from card__from">от Вадима Рошки</div>
+                  <div class="block-06__item-discount card__discount">135 ₽</div>
+                  <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">120 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
+                </div>
+                <div class="block-06__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-06__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
+              <div class="block-06__item card__item swiper-slide">
+                <div class="block-06__item-img card__img"><img src="img/index/content/block-06/03.png" alt="img03"><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a></div>
+                <div class="block-06__item-body card__body">
+                  <div class="block-06__item-title card__title">Редиска полусладкая</div>
+                  <div class="block-06__item-from card__from">от Василия Зайцева</div>
+                  <div class="block-06__item-discount card__discount">130 ₽</div>
+                  <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">107 ₽</span><span class="block-06__item-price-small card__price-small">/ 500 г</span></div>
+                </div>
+                <div class="block-06__item-rate card__rate">
+                  <picture><img src="img/index/content/block-02/stars.png" alt="stars"></picture>
+                </div>
+                <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
               </div>
-              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-06__item card__item">
-              <div class="block-06__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-06/03.webp"><img src="img/index/content/block-06/03.png" alt="img03">
-                </picture><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
-              </div>
-              <div class="block-06__item-body card__body">
-                <div class="block-06__item-title card__title">Редиска сладкая</div>
-                <div class="block-06__item-from card__from">от Василия Зайцева</div>
-                <div class="block-06__item-discount card__discount">120 ₽</div>
-                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">97 ₽</span><span class="block-06__item-price-small card__price-small">/ 500 г</span></div>
-              </div>
-              <div class="block-06__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
-              </div>
-              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
-            </div>
-            <div class="block-06__item card__item">
-              <div class="block-06__item-img card__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-06/04.webp"><img src="img/index/content/block-06/04.png" alt="img04">
-                </picture><a class="block-06__item-like card__like" href="#"><img src="img/index/content/block-02/like.svg" alt="like"></a>
-              </div>
-              <div class="block-06__item-body card__body">
-                <div class="block-06__item-title card__title">Морковь молодая</div>
-                <div class="block-06__item-from card__from">от Василия Зайцева</div>
-                <div class="block-06__item-discount card__discount">140 ₽</div>
-                <div class="block-06__item-price card__price"><span class="block-06__item-price-big card__price-big card__price-big--red">75 ₽</span><span class="block-06__item-price-small card__price-small">/ 1 кг</span></div>
-              </div>
-              <div class="block-06__item-rate card__rate">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-02/stars.webp"><img src="img/index/content/block-02/stars.png" alt="stars">
-                </picture>
-              </div>
-              <div class="block-06__item-cart card__cart"><img src="img/index/content/block-02/shopping-cart.svg" alt="shoping cart"></div>
             </div>
           </div>
         </div>
         <div class="container-slider">
-          <div class="block-02 swiper-container">
+          <div class="block-02__mob swiper-container">
             <div class="block-02__mobitems mobile-card__items swiper-wrapper">
               <div class="block-02__mobitem mobile-card__item swiper-slide">
                 <div class="block-02__mobitem-img mobile-card__img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-02/m01.webp"><img src="img/index/content/block-02/m01.png" alt="img01">
-                  </picture>
+                  <picture><img src="img/index/content/block-02/m01.png" alt="img01"></picture>
                 </div>
                 <div class="block-02__mobitem-body mobile-card__body">
                   <div class="block-02__mobitem-title mobile-card__title">Морковь средняя</div>
@@ -697,9 +799,7 @@
               </div>
               <div class="block-02__mobitem mobile-card__item swiper-slide">
                 <div class="block-02__mobitem-img mobile-card__img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-02/m02.webp"><img src="img/index/content/block-02/m02.png" alt="img01">
-                  </picture>
+                  <picture><img src="img/index/content/block-02/m02.png" alt="img01"></picture>
                 </div>
                 <div class="block-02__mobitem-body mobile-card__body">
                   <div class="block-02__mobitem-title mobile-card__title">Капуста средняя</div>
@@ -713,9 +813,7 @@
               </div>
               <div class="block-02__mobitem mobile-card__item swiper-slide">
                 <div class="block-02__mobitem-img mobile-card__img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-02/m03.webp"><img src="img/index/content/block-02/m03.png" alt="img01">
-                  </picture>
+                  <picture><img src="img/index/content/block-02/m03.png" alt="img01"></picture>
                 </div>
                 <div class="block-02__mobitem-body mobile-card__body">
                   <div class="block-02__mobitem-title mobile-card__title">Телятина</div>
@@ -729,9 +827,7 @@
               </div>
               <div class="block-02__mobitem mobile-card__item swiper-slide">
                 <div class="block-02__mobitem-img mobile-card__img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-02/m04.webp"><img src="img/index/content/block-02/m04.png" alt="img01">
-                  </picture>
+                  <picture><img src="img/index/content/block-02/m04.png" alt="img01"></picture>
                 </div>
                 <div class="block-02__mobitem-body mobile-card__body">
                   <div class="block-02__mobitem-title mobile-card__title">Помидоры на ветке</div>
@@ -745,9 +841,7 @@
               </div>
               <div class="block-02__mobitem mobile-card__item swiper-slide">
                 <div class="block-02__mobitem-img mobile-card__img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-02/m04.webp"><img src="img/index/content/block-02/m04.png" alt="img01">
-                  </picture>
+                  <picture><img src="img/index/content/block-02/m04.png" alt="img01"></picture>
                 </div>
                 <div class="block-02__mobitem-body mobile-card__body">
                   <div class="block-02__mobitem-title mobile-card__title">Мед сотовый</div>
@@ -767,30 +861,15 @@
         <div class="block-07">
           <div class="block-07__header header-subtitle">
             <h2 class="block-07__subtitle subtitle">С заботой о вас</h2>
-            <div class="block-07__buttons slider-buttons">
-              <div class="block-07__button-left slider-buttons__left"></div>
-              <div class="block-07__button-right slider-buttons__right"></div>
-            </div>
           </div>
-          <div class="block-07__items">
-            <div class="block-07__item">
-              <div class="block-07__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-07/01.webp"><img src="img/index/content/block-07/01.png" alt="01">
-                </picture>
+          <div class="block-07__items"><a class="block-07__item" href="#">
+              <div class="block-07__img"><img src="img/index/content/block-07/01.png" alt="01">
                 <div class="block-07__img-title">Школа <br> потребителя</div>
                 <div class="block-07__img-text"><span>Обзоры</span><span>Качество</span><span>Как производим</span></div>
-              </div>
-            </div>
-            <div class="block-07__item">
-              <div class="block-07__img">
-                <picture>
-                  <source type="image/webp" srcset="img/index/content/block-07/02.webp"><img src="img/index/content/block-07/02.png" alt="02">
-                </picture>
+              </div></a><a class="block-07__item" href="#">
+              <div class="block-07__img"><img src="img/index/content/block-07/02.png" alt="02">
                 <div class="block-07__img-title block-07__img-title--mod">Забота <br> о родителях</div>
-              </div>
-            </div>
-          </div>
+              </div></a></div>
         </div>
       </div>
       <div class="container container-slider">
@@ -808,6 +887,8 @@
               <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Что значит <br> «график доставки?»</a></div>
               <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Чем ваши продукты <br> отличаются от других?</a></div>
               <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Кто ваши <br> производители?</a></div>
+              <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">Как пройти в <br> библиотеку?</a></div>
+              <div class="block-08__item swiper-slide"><a class="block-08__question" href="#">В чем смысл жизни?</a></div>
             </div>
           </div>
         </div>
@@ -824,79 +905,66 @@
               <div class="block-09__button-right slider-buttons__right"></div>
             </div>
           </div>
-          <div class="block-09__items">
-            <div class="block-09__item">
-              <div class="block-09__item-header">
-                <div class="block-09__item-img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/photo01.webp"><img src="img/index/content/block-09/photo01.png" alt="photo01">
-                  </picture>
+          <div class="block-09__items-wrap swiper-container">
+            <div class="block-09__items swiper-wrapper">
+              <div class="block-09__item swiper-slide">
+                <div class="block-09__item-header">
+                  <div class="block-09__item-img"><img src="img/index/content/block-09/photo01.png" alt="photo01"></div>
+                  <div class="block-09__item-info">
+                    <div class="block-09__item-name card__title">Евгений Рошаль</div>
+                    <div class="block-09__item-provider card__from">поставщик птицы и яиц</div>
+                  </div>
                 </div>
-                <div class="block-09__item-info">
-                  <div class="block-09__item-name card__title">Евгений Рошаль</div>
-                  <div class="block-09__item-provider card__from">поставщик птицы и яиц</div>
-                </div>
-              </div>
-              <div class="block-09__item-gallery">
-                <div class="block-09__item-photo">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/01a.webp"><img src="img/index/content/block-09/01a.png" alt="01a">
-                  </picture>
-                </div>
-                <div class="block-09__item-photo">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/01b.webp"><img src="img/index/content/block-09/01b.png" alt="01b">
-                  </picture>
+                <div class="block-09__item-gallery">
+                  <div class="block-09__item-photo"><img src="img/index/content/block-09/01a.png" alt="01a"></div>
+                  <div class="block-09__item-photo">
+                    <picture><img src="img/index/content/block-09/01b.png" alt="01b"></picture>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="block-09__item">
-              <div class="block-09__item-header">
-                <div class="block-09__item-img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/photo02.webp"><img src="img/index/content/block-09/photo02.png" alt="photo02">
-                  </picture>
+              <div class="block-09__item swiper-slide">
+                <div class="block-09__item-header">
+                  <div class="block-09__item-img"><img src="img/index/content/block-09/photo02.png" alt="photo02"></div>
+                  <div class="block-09__item-info">
+                    <div class="block-09__item-name card__title">Юрий Лейшан</div>
+                    <div class="block-09__item-provider card__from">поставщик овощей</div>
+                  </div>
                 </div>
-                <div class="block-09__item-info">
-                  <div class="block-09__item-name card__title">Юрий Лейшан</div>
-                  <div class="block-09__item-provider card__from">поставщик овощей</div>
-                </div>
-              </div>
-              <div class="block-09__item-gallery">
-                <div class="block-09__item-photo">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/02a.webp"><img src="img/index/content/block-09/02a.png" alt="02a">
-                  </picture>
-                </div>
-                <div class="block-09__item-photo">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/02b.webp"><img src="img/index/content/block-09/02b.png" alt="02b">
-                  </picture>
+                <div class="block-09__item-gallery">
+                  <div class="block-09__item-photo"><img src="img/index/content/block-09/02a.png" alt="02a"></div>
+                  <div class="block-09__item-photo">
+                    <picture><img src="img/index/content/block-09/02b.png" alt="02b"></picture>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="block-09__item">
-              <div class="block-09__item-header">
-                <div class="block-09__item-img">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/photo03.webp"><img src="img/index/content/block-09/photo03.png" alt="photo03">
-                  </picture>
+              <div class="block-09__item swiper-slide">
+                <div class="block-09__item-header">
+                  <div class="block-09__item-img"><img src="img/index/content/block-09/photo03.png" alt="photo03"></div>
+                  <div class="block-09__item-info">
+                    <div class="block-09__item-name card__title">Василий Зайцев</div>
+                    <div class="block-09__item-provider card__from">поставщик хлеба и яиц</div>
+                  </div>
                 </div>
-                <div class="block-09__item-info">
-                  <div class="block-09__item-name card__title">Василий Зайцев</div>
-                  <div class="block-09__item-provider card__from">поставщик хлеба и яиц</div>
+                <div class="block-09__item-gallery">
+                  <div class="block-09__item-photo"><img src="img/index/content/block-09/03a.png" alt="03a"></div>
+                  <div class="block-09__item-photo">
+                    <picture><img src="img/index/content/block-09/03b.png" alt="03b"></picture>
+                  </div>
                 </div>
               </div>
-              <div class="block-09__item-gallery">
-                <div class="block-09__item-photo">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/03a.webp"><img src="img/index/content/block-09/03a.png" alt="03a">
-                  </picture>
+              <div class="block-09__item swiper-slide">
+                <div class="block-09__item-header">
+                  <div class="block-09__item-img"><img src="img/index/content/block-09/photo01.png" alt="photo01"></div>
+                  <div class="block-09__item-info">
+                    <div class="block-09__item-name card__title">Гера Пельмень</div>
+                    <div class="block-09__item-provider card__from">поставщик пельмешей</div>
+                  </div>
                 </div>
-                <div class="block-09__item-photo">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/content/block-09/03b.webp"><img src="img/index/content/block-09/03b.png" alt="03b">
-                  </picture>
+                <div class="block-09__item-gallery">
+                  <div class="block-09__item-photo"><img src="img/index/content/block-09/01a.png" alt="01a"></div>
+                  <div class="block-09__item-photo">
+                    <picture><img src="img/index/content/block-09/03b.png" alt="03b"></picture>
+                  </div>
                 </div>
               </div>
             </div>
@@ -923,20 +991,9 @@
                 <div class="footer__header2">О компании</div><a href="#">О нас</a><a href="#">Качество</a><a href="#">Контакты</a><a class="footer__about-store" href="#"><img src="img/index/footer/appstore.svg" alt="app store"></a><a class="footer__about-hidden" href="#"><img src="img/index/footer/google.svg" alt="google play"></a>
               </div>
               <div class="footer__body-right">
-                <div class="footer__header3">Партнеры</div><a class="footer__about-hidden" href="#">Наши фермеры</a><a class="footer__about-hidden" href="#">Анкета поставщика</a><a class="footer__partners-cards1" href="#">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/footer/master.webp"><img src="img/index/footer/master.png" alt="m">
-                  </picture>
-                  <picture>
-                    <source type="image/webp" srcset="img/index/footer/maestro.webp"><img src="img/index/footer/maestro.png" alt="m">
-                  </picture></a><a class="footer__partners-cards2" href="#">
-                  <picture>
-                    <source type="image/webp" srcset="img/index/footer/visa.webp"><img src="img/index/footer/visa.png" alt="m">
-                  </picture>
-                  <picture>
-                    <source type="image/webp" srcset="img/index/footer/mir.webp"><img src="img/index/footer/mir.png" alt="m">
-                  </picture></a>
-                <div class="footer__partners-pay"><a href="#"> <img src="img/index/footer/apay.svg" alt="apple pay"></a><a href="#"> <img src="img/index/footer/gpay.svg" alt="google pay"></a></div><a class="footer__social-phone1" href="tel:+74996536766">+7 499 653 67 66</a><a class="footer__social-phone2" href="tel:+79778533815">+7 977 853 38 15</a><a class="footer__social-link" href="#">Ежедневно с 7 до 23</a>
+                <div class="footer__header3">Партнеры</div><a class="footer__about-hidden" href="#">Наши фермеры</a><a class="footer__about-hidden" href="#">Анкета поставщика</a><a class="footer__partners-cards1" href="#"><img src="img/index/footer/master.png" alt="m"><img src="img/index/footer/maestro.png" alt="m"></a><a class="footer__partners-cards2" href="#"><img src="img/index/footer/visa.png" alt="m"><img src="img/index/footer/mir.png" alt="m"></a>
+                <div class="footer__partners-pay"><a href="#"> <img src="img/index/footer/apay.svg" alt="apple pay"></a><a href="#"> <img src="img/index/footer/gpay.svg" alt="google pay"></a></div><a class="footer__social-phone1" href="tel:+74996536766">+7 499 653 67 66</a><a class="footer__social-phone2" href="tel:+79778533815">+7 977 853 38 15</a>
+                <div class="footer__social-link">Ежедневно с 7 до 23</div>
                 <div class="footer__social-icons"><a class="footer__social-icon" href="#"><img src="img/index/footer/social-insta.svg" alt="insta"></a><a class="footer__social-icon" href="#"><img src="img/index/footer/social-vk.svg" alt="vk"></a><a class="footer__social-icon" href="#"><img src="img/index/footer/social-fb.svg" alt="fb"></a><a class="footer__social-icon" href="#"><img src="img/index/footer/social-zen.svg" alt="zen"></a></div><a class="footer__social-link1" href="#">Обратная связь</a><a class="footer__social-link2" href="#">Новости</a>
               </div>
             </div>
